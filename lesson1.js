@@ -28,6 +28,7 @@ const lessonOneB = () => {
         I use let for everything.
         Example:
             let myNum = 12;
+        Or for a double:
             let myNum = 3.14;
 
     Boolean
