@@ -6,13 +6,13 @@ Make sure you run:
 
 This will get all the things we need to run your tests.
 
-##To run your tests for yourself run:
+## To run your tests for yourself run:
 
 `npm test`
 
-##Lesson Instructions
+## Lesson Instructions
 
-###1A
+### 1A
 
 Below I've declared a variable called hello and set it equal to 'Hello World!' like so:
     
@@ -20,11 +20,11 @@ Below I've declared a variable called hello and set it equal to 'Hello World!' l
 
 Try to do the same
 
-###1B
+### 1B
 
-###Variables can be all kinds of things. Here are some examples:
+### Variables can be all kinds of things. Here are some examples:
     
-####Strings
+#### Strings
 Like what we just did in Lesson One A we set our variable hello equal to a string.
 A string is text surrounded by either double quotes or quotes "" or ''.
 Just simple text
@@ -32,7 +32,7 @@ Example:
 
 `let myString = 'this is my string';`
 
-####Integers and Doubles
+#### Integers and Doubles
 Integers and Doubles are both numbers. An Integer is a whole number: 1, 2, 3, etc
 and a double is a number with a decimal point 1.2, 2.3, 3.4, etc.
 Just like strings however every variable in javascript is declared with the declaration let.
@@ -46,14 +46,14 @@ Or for a double:
 
 `let myNum = 3.14;`
 
-####Boolean
+#### Boolean
 A boolean is either true or false and you'll see why that's important later.
 You literally type the word true or false without any quotes or anything.
 Example:
 
 `let myBool = true;`
 
-####1C
+#### 1C
 
 Variables can be adjusted or edited any time you want!
 For example, say you wanted to set a variable equal to three and later
