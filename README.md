@@ -22,7 +22,7 @@ Try to do the same
 
 ### 1B
 
-### Variables can be all kinds of things. Here are some examples:
+Variables can be all kinds of things. Here are some examples:
     
 #### Strings
 Like what we just did in Lesson One A we set our variable hello equal to a string.
@@ -53,7 +53,7 @@ Example:
 
 `let myBool = true;`
 
-#### 1C
+### 1C
 
 Variables can be adjusted or edited any time you want!
 For example, say you wanted to set a variable equal to three and later
