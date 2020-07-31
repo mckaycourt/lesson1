@@ -59,13 +59,17 @@ Variables can be adjusted or edited any time you want!
 For example, say you wanted to set a variable equal to three and later
 change it to 5 you could do that!
 Example:
-`let testing = 3;
-testing = 5;`
+```
+let testing = 3;
+testing = 5;
+```
 
 Another Example:
 
-`let testing = 3;
-testing = testing + 2;`
+```
+let testing = 3;
+testing = testing + 2;
+```
 
 You see there were two ways that i adjusted the testing variable.
 In the first example I just set it again using the = operator.
@@ -77,3 +81,35 @@ The right side of the = is always processed first.
 I'll declare both variables for you and you edit both using both the ways we talked about.
 
 Make both variables equal 25;
+
+### 1D
+
+You are not just limited to addition. There's subtraction (-), multiplication (*), and division(/).
+Repeat what you learned in the second half of 1C except with these new operators.
+
+### Bonus 1
+
+There are a lot of shortcuts developers have come up for themselves. You'll quickly find they must hate typing more than they have to. When you are modifying a variable based off its current value we learned earlier you could do it like this:
+
+`test = test + 5`
+
+Instead of typing all that you can use this short syntax:
+
+`test += 5`
+
+Same thing just a shortcut! Plus it works with all the operators we talked about earlier!
+
+Try to get the variable shortCutTest to 72 by using two operators and this new method.
+
+### Bonus 2
+
+So far we've talked about operators that make a lot of sense. You've used all of these since elementary school. There's another operator that comes in handy for developers, it's a shortcut to find what's leftover after division. For example, 8 / 3 is two with 2 left over because 3 goes into 8 twice.
+
+The operator for this action is % and is called modulus. The above example is represented by the following line of code:
+
+```
+let test = 8;
+let remainder = test % 2;
+```
+
+For this exercise think about what 23 % 5 is and set the variable answer to it.

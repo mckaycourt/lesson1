@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {lessonOneA, lessonOneB, lessonOneC} = require('./lesson1');
+const {lessonOneA, lessonOneB, lessonOneC, lessonOneD, bonusLessonOne, bonusLessonTwo} = require('./lesson1');
 
 describe('LESSON ONE A', function () {
     describe('Testing the value of the hello variable', function () {
@@ -35,6 +35,44 @@ describe('LESSON ONE C', function () {
         });
         it('test2 should equal 25', function () {
             assert.equal(test2, 25);
+        });
+    });
+});
+
+describe('LESSON ONE D', function () {
+    describe('Checking each variable equals 20', function () {
+        let {multiplicationTest, divisionTest, subtractionTest} = lessonOneD();
+        it('multiplicationTest should equal 20', function () {
+            assert.equal(multiplicationTest, 20);
+        });
+        it('divisionTest should equal 20', function () {
+            assert.equal(divisionTest, 20);
+        });
+        it('subtractionTest should equal 20', function () {
+            assert.equal(subtractionTest, 20);
+        });
+    });
+});
+
+describe('Bonus One', function () {
+    describe('Get 15 to 72 using two of the shortcut methods discussed', function () {
+        let result = bonusLessonOne();
+        it('shortCutTest should equal 72', function () {
+            assert.equal(result, 72);
+        });
+    });
+});
+
+describe('Bonus Two', function () {
+    describe('What is 23 mod 5??', function () {
+        let result = bonusLessonTwo();
+        it('What is the answer??', function () {
+            if (result !== 3) {
+                console.log('Who knows??');
+                assert.equal(true, false);
+            } else {
+                assert.equal(result, 3);
+            }
         });
     });
 });
