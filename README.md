@@ -14,7 +14,7 @@ This will get all the things we need to run your tests.
 
 ###1A
 
-Below I've declared a variable called hello set it equal to 'Hello World!' like so:
+Below I've declared a variable called hello and set it equal to 'Hello World!' like so:
     
 `let hello = 'Hello World!';`
 
